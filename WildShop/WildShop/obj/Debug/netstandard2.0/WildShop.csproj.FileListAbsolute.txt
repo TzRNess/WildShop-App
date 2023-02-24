@@ -1,0 +1,17 @@
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\bin\Debug\netstandard2.0\WildShop.deps.json
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\bin\Debug\netstandard2.0\WildShop.dll
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\bin\Debug\netstandard2.0\WildShop.pdb
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.csprojAssemblyReference.cache
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.AssemblyInfoInputs.cache
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.AssemblyInfo.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.dll
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\WildShop.pdb
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\Access\Inicio.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\Access\Registro.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\MasterDetailPage\Detail.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\MasterDetailPage\Master.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\MasterDetailPage\MasterDetail.xaml.g.cs
+C:\Users\Alejandro Beggiato\source\repos\WildShop\WildShop\WildShop\obj\Debug\netstandard2.0\pgPrincipal.xaml.g.cs
