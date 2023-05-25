@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WildShop.pgPrincipal"
+             Title="The Wild Shop">
+    <ContentPage.Content>
+        
+        <StackLayout
+             BackgroundColor="LightBlue"
+             Padding="15">
+            
+
+            
+            <Label 
+                    FontAttributes="Italic"
+                    FontSize="Large"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    Text="Bienvenido"/>
+
+            <Image
+                        WidthRequest="150"
+                        Source="cart2"
+                        Margin="0,50,0,50"
+                        HorizontalOptions="Center">
+            </Image>
+
+            <StackLayout
+                
+                    Margin="40"
+                    Padding="0,0,0,40">
+
+
+                <Button
+                                Margin="5"
+                                BorderRadius="40"
+                                BackgroundColor="SkyBlue"
+                                Text="Entrar"
+                                TextColor="white"
+
+                                x:Name="bTn1" Clicked="BTn1_Clicked"/>
+                <Button
+                                Margin="5"   
+                                BorderRadius="40"
+                                BackgroundColor="SkyBlue"
+                                Text="Iniciar Sesion"
+                                TextColor="white"
+                                x:Name="bTn2" Clicked="BTn2_Clicked"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WildShop.Registro"
+             Title="The Wild Shop">
+
+    <ScrollView>
+        <StackLayout 
+            BackgroundColor="LightBlue"
+            Padding="5">
+
+            <Label 
+                    FontAttributes="Italic"
+                    FontSize="Large"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    Text="Nuevo Usuario" 
+                    Margin="0,5,0,0"/>
+
+            <Image
+                
+                    WidthRequest="80"
+                    Source="usuario"
+                    Margin="0,30,0,10"
+                    HorizontalOptions="Center">
+
+            </Image>
+
+            <Grid   Margin="5,2,2,20"
+                    Padding="20,20,20,20"
+                    VerticalOptions="CenterAndExpand">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackLayout Grid.Row="0">
+                    <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre completo" FontSize="16" FontAttributes="Italic"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="1">
+                    <Entry  x:Name="txtEmail" Placeholder="E-Mail" FontSize="16" FontAttributes="Italic" Keyboard="Email"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="2">
+                    <Entry x:Name="txtPassword" Placeholder="Password" FontSize="16" IsPassword="True"/>
+                </StackLayout>
+
+                <StackLayout Grid.Row="3">
+                    <Entry x:Name="txtPassword2" Placeholder="Repetir Password" FontSize="16" IsPassword="True"/>
+                </StackLayout>
+
+
+            </Grid>
+
+            <StackLayout Margin="0,0,0,30"
+                         Padding="0,0,0,40">
+                <Button
+                                Margin="5"
+                                BorderRadius="40"
+                                BackgroundColor="SkyBlue"
+                                Text="Registrar"
+                                TextColor="white"
+                                x:Name="btn3" Clicked="Btn3_Clicked" />
+            </StackLayout>
+
+
+        </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>

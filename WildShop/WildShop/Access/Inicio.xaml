@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WildShop.Inicio"
+             Title="The Wild Shop">
+
+    <ScrollView>
+
+        <StackLayout
+                    BackgroundColor="LightBlue"
+                    Padding="5">
+
+            <Label 
+                    FontAttributes="Italic"
+                    FontSize="Large"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    Text="Iniciar Sesion" />
+
+            <Image
+                        WidthRequest="150"
+                        Source="cart2"
+                        Margin="0,50,0,50"
+                        HorizontalOptions="Center">
+            </Image>
+
+            <Grid   
+                        Margin="10,0">
+
+
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+
+                </Grid.ColumnDefinitions>
+
+
+                <Label
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="Center"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Text="E-Mail" />
+
+                <Entry
+                     
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Keyboard="Email"
+                            Placeholder="Ingrese su email..."
+                            x:Name="txtUsuario"/>
+
+                <Label
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="Center"
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            TextColor="Black"
+                            FontAttributes="Bold"
+                            Text="Password" />
+
+                <Entry
+                       
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            IsPassword="True"
+                            Placeholder="Ingrese su password..."
+                            x:Name="txtPassword"/>
+
+
+
+            </Grid>
+
+            <StackLayout
+                           Orientation="Horizontal"
+                            Margin="10,0">
+
+                <Label    
+                                HorizontalOptions="StartAndExpand"
+                                VerticalOptions="Center"
+                                Text="Recordar usuario en este dispositivo"/>
+                <Switch 
+                                HorizontalOptions="End"/>
+
+
+            </StackLayout>
+
+
+
+            <ActivityIndicator
+                    VerticalOptions="CenterAndExpand">
+            </ActivityIndicator>
+
+            <StackLayout
+                    Margin="30,0"
+                    Padding="0,0,0,40">
+
+                <Label 
+                                Text="Forgot you password?"
+                                HorizontalOptions="CenterAndExpand"
+                                TextColor="white"
+                                Margin="0,0,0,10"/>
+
+                <Button
+                                Margin="5"   
+                                BorderRadius="40"
+                                BackgroundColor="SkyBlue"
+                                Text="Iniciar"
+                                TextColor="white"
+                                x:Name="bTn1" Clicked="BTn1_Clicked"/>
+
+
+                <Button
+                                Margin="5"   
+                                BorderRadius="40"
+                                BackgroundColor="SkyBlue"
+                                Text="Registrar"
+                                TextColor="white"
+                                x:Name="Btn2" Clicked="Btn2_Clicked" />
+            </StackLayout>
+            <StackLayout
+                        Orientation="Horizontal"
+                        HorizontalOptions="Center">
+                <Image  
+                                    Margin="5"
+                                    Source="facebook"
+                                    WidthRequest="35"
+                                    />
+                <Image 
+                                    Margin="5"
+                                    Source="google"
+                                    WidthRequest="50"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
